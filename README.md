@@ -49,7 +49,7 @@ That's all.
 
 <br>
 
-### Advanced Info:
+### Advanced Info
 
 ---
 
@@ -67,7 +67,7 @@ Possible accepted values,
 
 <br>
 
-### - Troubleshooting steps:
+### - Troubleshooting
 
 ---
 
@@ -93,7 +93,7 @@ Possible accepted values,
 
 <br>
 
-###   Credits:
+###   Credits
 
 ---
 
