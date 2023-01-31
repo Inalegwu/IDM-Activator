@@ -1,12 +1,6 @@
 @setlocal DisableDelayedExpansion
 @echo off
 
-:: Add custom name in IDM license info, prefer to write it in English and/or numeric in below line after = sign,
-set /p "name=> Username: "
-
-
-
-
 ::========================================================================================================================================
 
 :: Re-launch the script with x64 process if it was initiated by x86 process on x64 bit Windows
@@ -185,7 +179,6 @@ echo:
 echo:          ---------------------------------------------   
 echo:                                                          
 echo:          IDM Activator v0.7
-echo:          https://github.com/NaeemBolchhi/IDM-Activator
 echo:                                                          
 echo:          ---------------------------------------------   
 echo:                                                          
@@ -425,6 +418,8 @@ echo:
 echo Applying registration details...
 echo:
 
+:: Add custom name in IDM license info, prefer to write it in English and/or numeric in below line after = sign,
+set /p "name=> Username: "
 If not defined name set "name=%username%"
 
 set "reg=HKCU\SOFTWARE\DownloadManager /v FName /t REG_SZ /d "%name%"" & call :_rcont
