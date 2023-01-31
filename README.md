@@ -98,27 +98,15 @@ Possible accepted values,
 
 ---
 
-   - @Dukun Cabul
-     - Original researcher of this IDM trial reset and activation logic,
-       made an Autoit tool for these methods, IDM-AIO_2020_Final
-       - nsaneforums.com/topic/371047--/?do=findComment&comment=1632062
-                         
-   - @WindowsAddict
-     - Ported the above Autoit tool to a batch script
-
-   - @AveYo aka @BAU
-     - Snippet to set registry ownership and permission recursively
-       - pastebin.com/XTPt0JSC
-
-   - @abbodi1406
-     - Awesome batch script tricks and help
-
-   - @dbenham
-     - Set buffer height independently of window height
-       - stackoverflow.com/a/13351373
-
-   - @ModByPiash
-     - Added and fixed some missing features.
-   
-   - @NaeemBolchhi (Me)
-     - Improved username generation.
+| **Dev** | **Contribution** |
+|---|---|
+| @Dukun Cabul | Original researcher of this IDM trial reset and activation logic, made an Autoit tool for these methods, IDM\-AIO\_2020\_Final |
+|  | nsaneforums\.com/topic/371047\-\-/?do=findComment&comment=1632062 |
+| @WindowsAddict | Ported the above Autoit tool to a batch script |
+| @AveYo aka @BAU | Snippet to set registry ownership and permission recursively |
+|  | pastebin\.com/XTPt0JSC |
+| @abbodi1406 | Awesome batch script tricks and help |
+| @dbenham | Set buffer height independently of window height |
+|  | stackoverflow\.com/a/13351373 |
+| @ModByPiash | Added and fixed some missing features |
+| @NaeemBolchhi \(Me\) | Improved username generation |
