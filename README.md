@@ -122,9 +122,3 @@ Possible accepted values,
    
    - @NaeemBolchhi (Me)
      - Improved username generation.
-
-<br>
-
-##   IDM Activation Script
-
-###   Telegram:   https://t.me/NaeemBolchhi
