@@ -63,7 +63,7 @@ set winbuild=1
 for /f "tokens=6 delims=[]. " %%G in ('ver') do set winbuild=%%G
 call :_colorprep
 set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "line=――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――"
+set "line=----------------------------------------------------------------------------------------"
 set "_buf={$W=$Host.UI.RawUI.WindowSize;$B=$Host.UI.RawUI.BufferSize;$W.Height=31;$B.Height=300;$Host.UI.RawUI.WindowSize=$W;$Host.UI.RawUI.BufferSize=$B;}"
 
 if defined Silent if not defined activate if not defined reset exit /b
@@ -182,27 +182,27 @@ set _col=%_Yellow%
 )
 
 echo:                                                          
-echo:          ―――――――――――――――――――――――――――――――――――――――――――――   
+echo:          ---------------------------------------------   
 echo:                                                          
 echo:          IDM Activator v0.7
 echo:          https://github.com/NaeemBolchhi/IDM-Activator
 echo:                                                          
-echo:          ―――――――――――――――――――――――――――――――――――――――――――――   
+echo:          ---------------------------------------------   
 echo:                                                          
 echo:          [1] Activate IDM                                
 echo:          [2] Reset IDM Activation / Trial in Registry
 echo:                                                          
-echo:          ―――――――――――――――――――――――――――――――――――――――――――――   
+echo:          ---------------------------------------------   
 echo:                                                          
 call :_color2 %_White% "          [3] Toggle Windows Firewall  " %_col% "[%_status%]"
 echo:                                                          
-echo:          ―――――――――――――――――――――――――――――――――――――――――――――   
+echo:          ---------------------------------------------   
 echo:                                                          
 echo:          [4] Readme                                      
 echo:          [5] Homepage                                    
 echo:          [6] Exit                                        
 echo:                                                          
-echo:       ―――――――――――――――――――――――――――――――――――――――――――――――――――
+echo:       ---------------------------------------------------
 echo:   
 call :_color2 %_White% "        " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,6]"
 choice /C:123456 /N
@@ -775,11 +775,11 @@ exit /b
 ::========================================================================================================================================
 
 :txt:
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
    Activation:
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
  - This script applies the registry lock method to activate the Internet Download Manager (IDM).
 
@@ -790,11 +790,11 @@ exit /b
  - After the activation, if in some cases, the IDM starts to show an activation nag screen, 
    then just run the activation option again.
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
    Reset IDM Activation / Trial:
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
  - The Internet Download Manager provides 30 days trial period, you can use this script to 
    reset this Activation / Trial period whenever you want.
@@ -802,19 +802,19 @@ exit /b
  - This option also can be used to restore status if in case the IDM reports a fake serial
    key and other similar errors.
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
    OS requirement:
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
  - Project is supported only for Windows 7/8/8.1/10/11 and their Server equivalent.
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
  - Advanced Info:
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
    - For activation in unattended mode, run the script with /act parameter.
    - For reset in unattended mode, run the script with /res parameter.
@@ -827,11 +827,11 @@ Possible accepted values,
 "IDMA-xxxxxxxx.cmd" /act /s
 "IDMA-xxxxxxxx.cmd" /res /s
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
  - Troubleshooting steps:
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
    - If any other activator was used to activate IDM previously then make sure to properly
      uninstall it with that same activator (if there is an option), this is especially important
@@ -853,11 +853,11 @@ Possible accepted values,
 
      - If you are still facing any issues, please contact me (mentioned below on this page).
 
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+--------------------------------------------------------------------------------------------------
 
    Credits:
 
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+--------------------------------------------------------------------------------------------------
 
    @Dukun Cabul		- Original researcher of this IDM trial reset and activation logic,
 			  made an Autoit tool for these methods, IDM-AIO_2020_Final
@@ -877,7 +877,7 @@ Possible accepted values,
    
    @NaeemBolchhi (Me)	- Improved username generation.
 
-―――――――――――――――――――――――――――――――――
+---------------------------------
 
    IDM Activator
    
@@ -885,7 +885,7 @@ Possible accepted values,
    
    Telegram:	https://t.me/NaeemBolchhi
 
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+--------------------------------------------------------------------------------------------------
 
 :txt:
 
