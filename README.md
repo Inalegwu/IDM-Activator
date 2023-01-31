@@ -1,10 +1,10 @@
 # IDM Activator
 
-―――――――――――――――――――――――――――――――――
+---
 
 ###   Activation:
 
-―――――――――――――――――――――――――――――――――
+---
 
  - This script applies the registry lock method to activate the Internet Download Manager (IDM).
 
@@ -15,11 +15,11 @@
  - After the activation, if in some cases, the IDM starts to show an activation nag screen, 
    then just run the activation option again.
 
-―――――――――――――――――――――――――――――――――
+---
 
 ###   Reset IDM Activation / Trial:
 
-―――――――――――――――――――――――――――――――――
+---
 
  - The Internet Download Manager provides 30 days trial period, you can use this script to 
    reset this Activation / Trial period whenever you want.
@@ -27,11 +27,11 @@
  - This option also can be used to restore status if in case the IDM reports a fake serial
    key and other similar errors.
 
-―――――――――――――――――――――――――――――――――
+---
 
 ###   OS requirement: Windows 7, 8, 8.1, 10 & 11
 
-―――――――――――――――――――――――――――――――――
+---
 
 ##   How to use it?
 
@@ -47,15 +47,15 @@ You will see the activation options, and follow onscreen instructions.
 
 That's all.
 
-―――――――――――――――――――――――――――――――――
+---
 
  - Project is supported only for Windows 7/8/8.1/10/11 and their Server equivalent.
 
-―――――――――――――――――――――――――――――――――
+---
 
 ### - Advanced Info:
 
-―――――――――――――――――――――――――――――――――
+---
 
    - To add a custom name in IDM license info, edit line number 5 in the script file.
    - For activation in unattended mode, run the script with /act parameter.
@@ -69,11 +69,11 @@ Possible accepted values,
 "IAS_xxxxxxxx.cmd" /act /s
 "IAS_xxxxxxxx.cmd" /res /s
 
-―――――――――――――――――――――――――――――――――
+---
 
 ### - Troubleshooting steps:
 
-―――――――――――――――――――――――――――――――――
+---
 
    - If any other activator was used to activate IDM previously then make sure to properly
      uninstall it with that same activator (if there is an option), this is especially important
@@ -95,11 +95,11 @@ Possible accepted values,
 
      - If you are still facing any issues, please contact me (mentioned below on this page).
 
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+---
 
 ###   Credits:
 
-――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+---
 
    @Dukun Cabul        - Original researcher of this IDM trial reset and activation logic,
                          made an Autoit tool for these methods, IDM-AIO_2020_Final
@@ -117,11 +117,10 @@ Possible accepted values,
 
    @ModByPiash (Me)	   - Add and fix some missing features.
 
-―――――――――――――――――――――――――――――――――
+---
 
 ##   IDM Activation Script
 
 ###   Telegram:   https://t.me/NaeemBolchhi
 
   Forum:   https://www.nsaneforums.com/topic/371047--/?do=findComment^&comment=1578647
-____________________________________________________________________________________________________
