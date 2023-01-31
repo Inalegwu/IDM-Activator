@@ -57,7 +57,7 @@ set winbuild=1
 for /f "tokens=6 delims=[]. " %%G in ('ver') do set winbuild=%%G
 call :_colorprep
 set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "line=----------------------------------------------------------------------------------------"
+set "line=---------------------------------"
 set "_buf={$W=$Host.UI.RawUI.WindowSize;$B=$Host.UI.RawUI.BufferSize;$W.Height=31;$B.Height=300;$Host.UI.RawUI.WindowSize=$W;$Host.UI.RawUI.BufferSize=$B;}"
 
 if defined Silent if not defined activate if not defined reset exit /b
@@ -176,16 +176,13 @@ set _col=%_Yellow%
 )
 
 echo:                                                          
-echo:          ---------------------------------------------   
 echo:                                                          
-echo:          IDM Activator v0.7
+echo:          ::: IDM Activator v0.7                       
 echo:                                                          
 echo:          ---------------------------------------------   
 echo:                                                          
 echo:          [1] Activate IDM                                
 echo:          [2] Reset IDM Activation / Trial in Registry
-echo:                                                          
-echo:          ---------------------------------------------   
 echo:                                                          
 call :_color2 %_White% "          [3] Toggle Windows Firewall  " %_col% "[%_status%]"
 echo:                                                          
@@ -196,7 +193,8 @@ echo:          [5] Homepage
 echo:          [6] Exit                                        
 echo:                                                          
 echo:       ---------------------------------------------------
-echo:   
+echo:                                                          
+echo:                                                          
 call :_color2 %_White% "        " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,6]"
 choice /C:123456 /N
 set _erl=%errorlevel%
@@ -329,7 +327,7 @@ echo %line%
 echo:
 call :_color %Green% "IDM is successfully activated."
 echo:
-call :_color %Gray% "If fake serial screen appears, run activation option again, after that it wont appear."
+call :_color %Gray% "If fake serial screen appears, run activation option again. After that it won't appear anymore."
 goto done
 )
 
@@ -452,7 +450,7 @@ if [%foundkeys%] GEQ [7] goto _skip
 
 set link=https://www.internetdownloadmanager.com/pictures/idm_about.png
 call :download
-set link=https://www.internetdownloadmanager.com/languages/indian.png
+set link=https://www.internetdownloadmanager.com/languages/bengali.png
 call :download
 
 timeout /t 3 >nul
@@ -850,11 +848,11 @@ Possible accepted values,
 
      - If you are still facing any issues, please contact me (mentioned below on this page).
 
---------------------------------------------------------------------------------------------------
+---------------------------------
 
    Credits:
 
---------------------------------------------------------------------------------------------------
+---------------------------------
 
    @Dukun Cabul		- Original researcher of this IDM trial reset and activation logic,
 			  made an Autoit tool for these methods, IDM-AIO_2020_Final
@@ -882,7 +880,7 @@ Possible accepted values,
    
    Telegram:	https://t.me/NaeemBolchhi
 
---------------------------------------------------------------------------------------------------
+---------------------------------
 
 :txt:
 
