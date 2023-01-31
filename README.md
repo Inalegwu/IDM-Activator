@@ -1,6 +1,6 @@
 #   IDM Activator
 
-###   Activation:
+###   Activation
 
 ---
 
@@ -15,7 +15,7 @@
 
 <br>
 
-###   Reset IDM Activation / Trial:
+###   Reset IDM Activation / Trial
 
 ---
 
