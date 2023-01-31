@@ -25,9 +25,7 @@
  - This option also can be used to restore status if in case the IDM reports a fake serial
    key and other similar errors.
 
----
-
-###   OS requirement: Windows 7, 8, 8.1, 10 & 11
+####   OS requirement: Windows 7, 8, 8.1, 10 & 11
 
 <br>
 
