@@ -1,6 +1,6 @@
-# IDM Activator
+#   IDM Activator
 
-### Activation:
+###   Activation:
 
 ---
 
@@ -15,7 +15,7 @@
 
 <br>
 
-### Reset IDM Activation / Trial:
+###   Reset IDM Activation / Trial:
 
 ---
 
@@ -30,6 +30,7 @@
 ###   OS requirement: Windows 7, 8, 8.1, 10 & 11
 
 <br>
+
 ##   How to use it?
 
 ###   PowerShell
@@ -48,7 +49,7 @@ That's all.
 
  - Project is supported only for Windows 7/8/8.1/10/11 and their Server equivalent.
 
----
+<br>
 
 ### - Advanced Info:
 
