@@ -49,7 +49,7 @@ That's all.
 
 <br>
 
-### - Advanced Info:
+### Advanced Info:
 
 ---
 
@@ -65,7 +65,7 @@ Possible accepted values,
 "IAS_xxxxxxxx.cmd" /act /s
 "IAS_xxxxxxxx.cmd" /res /s
 
----
+<br>
 
 ### - Troubleshooting steps:
 
@@ -91,7 +91,7 @@ Possible accepted values,
 
      - If you are still facing any issues, please contact me (mentioned below on this page).
 
----
+<br>
 
 ###   Credits:
 
@@ -111,9 +111,11 @@ Possible accepted values,
    @dbenham            - Set buffer height independently of window height
                          stackoverflow.com/a/13351373
 
-   @ModByPiash (Me)	   - Add and fix some missing features.
+   @ModByPiash	        - Added and fixed some missing features.
+   
+   @NaeemBolchhi (Me)  - Improved username generation.
 
----
+<br>
 
 ##   IDM Activation Script
 
