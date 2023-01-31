@@ -1,6 +1,6 @@
 # IDM Activator
 
-###Activation:
+### Activation:
 
 ---
 
@@ -14,7 +14,8 @@
    then just run the activation option again.
 
 <br>
-###Reset IDM Activation / Trial:
+
+### Reset IDM Activation / Trial:
 
 ---
 
