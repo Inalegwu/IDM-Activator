@@ -1,7 +1,7 @@
 # Enable TLSv1.2 for compatibility with older clients
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://naeembolchhi.github.io/IDM-Activator/IDMA-20230031131210.cmd'
+$DownloadURL = 'https://naeembolchhi.github.io/IDM-Activator/IDMA-20230031131919.cmd'
 
 $FilePath = "$env:TEMP\IDMA.cmd"
 
