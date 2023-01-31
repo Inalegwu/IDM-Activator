@@ -815,10 +815,10 @@ _________________________________
 
 Possible accepted values,
 
-"IAS_xxxxxxxx.cmd" /act
-"IAS_xxxxxxxx.cmd" /res
-"IAS_xxxxxxxx.cmd" /act /s
-"IAS_xxxxxxxx.cmd" /res /s
+"IDMA-xxxxxxxx.cmd" /act
+"IDMA-xxxxxxxx.cmd" /res
+"IDMA-xxxxxxxx.cmd" /act /s
+"IDMA-xxxxxxxx.cmd" /res /s
 
 _________________________________
 
