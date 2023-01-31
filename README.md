@@ -1,7 +1,5 @@
 # IDM Activator
 
----
-
 ###   Activation:
 
 ---
