@@ -2,7 +2,7 @@
 @echo off
 
 :: Add custom name in IDM license info, prefer to write it in English and/or numeric in below line after = sign,
-set name=
+set /p "name=> Username: "
 
 
 
@@ -63,7 +63,7 @@ set winbuild=1
 for /f "tokens=6 delims=[]. " %%G in ('ver') do set winbuild=%%G
 call :_colorprep
 set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "line=________________________________________________________________________________________"
+set "line=――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――"
 set "_buf={$W=$Host.UI.RawUI.WindowSize;$B=$Host.UI.RawUI.BufferSize;$W.Height=31;$B.Height=300;$Host.UI.RawUI.WindowSize=$W;$Host.UI.RawUI.BufferSize=$B;}"
 
 if defined Silent if not defined activate if not defined reset exit /b
@@ -153,7 +153,7 @@ if defined activate goto _activate
 :MainMenu
 
 cls
-title  IDM Activation Script 0.7 - @ModByPiash
+title  IDM Activator
 mode 65, 25
 
 :: Check firewall status
@@ -181,24 +181,28 @@ set _status=Status_Unclear
 set _col=%_Yellow%
 )
 
-call :_color2 %_White% "        " %_Green% "  Create By Piash"
-echo:          _____________________________________________   
-echo: 
-echo:          Telegram: @ModByPiash
-echo:          Github: https://github.com/lstprjct
-echo:          _____________________________________________   
+echo:                                                          
+echo:          ―――――――――――――――――――――――――――――――――――――――――――――   
+echo:                                                          
+echo:          IDM Activator v0.7
+echo:          https://github.com/NaeemBolchhi/IDM-Activator
+echo:                                                          
+echo:          ―――――――――――――――――――――――――――――――――――――――――――――   
 echo:                                                          
 echo:          [1] Activate IDM                                
 echo:          [2] Reset IDM Activation / Trial in Registry
-echo:          _____________________________________________   
+echo:                                                          
+echo:          ―――――――――――――――――――――――――――――――――――――――――――――   
 echo:                                                          
 call :_color2 %_White% "          [3] Toggle Windows Firewall  " %_col% "[%_status%]"
-echo:          _____________________________________________   
 echo:                                                          
-echo:          [4] ReadMe                                      
+echo:          ―――――――――――――――――――――――――――――――――――――――――――――   
+echo:                                                          
+echo:          [4] Readme                                      
 echo:          [5] Homepage                                    
 echo:          [6] Exit                                        
-echo:       ___________________________________________________
+echo:                                                          
+echo:       ―――――――――――――――――――――――――――――――――――――――――――――――――――
 echo:   
 call :_color2 %_White% "        " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,6]"
 choice /C:123456 /N
@@ -227,12 +231,12 @@ exit /b
 
 :readme
 
-set "_ReadMe=%SystemRoot%\Temp\ReadMe.txt"
-if exist "%_ReadMe%" del /f /q "%_ReadMe%" %nul%
-call :export txt "%_ReadMe%"
-start notepad "%_ReadMe%"
+set "_Readme=%SystemRoot%\Temp\Readme.txt"
+if exist "%_Readme%" del /f /q "%_Readme%" %nul%
+call :export txt "%_Readme%"
+start notepad "%_Readme%"
 timeout /t 2 %nul%
-del /f /q "%_ReadMe%"
+del /f /q "%_Readme%"
 exit /b
 
 
@@ -421,7 +425,7 @@ echo:
 echo Applying registration details...
 echo:
 
-If not defined name set name=Piash
+If not defined name set "name=%username%"
 
 set "reg=HKCU\SOFTWARE\DownloadManager /v FName /t REG_SZ /d "%name%"" & call :_rcont
 set "reg=HKCU\SOFTWARE\DownloadManager /v LName /t REG_SZ /d """ & call :_rcont
@@ -771,10 +775,11 @@ exit /b
 ::========================================================================================================================================
 
 :txt:
-_________________________________
+―――――――――――――――――――――――――――――――――
 
    Activation:
-_________________________________
+
+―――――――――――――――――――――――――――――――――
 
  - This script applies the registry lock method to activate the Internet Download Manager (IDM).
 
@@ -785,10 +790,11 @@ _________________________________
  - After the activation, if in some cases, the IDM starts to show an activation nag screen, 
    then just run the activation option again.
 
-_________________________________
+―――――――――――――――――――――――――――――――――
 
    Reset IDM Activation / Trial:
-_________________________________
+
+―――――――――――――――――――――――――――――――――
 
  - The Internet Download Manager provides 30 days trial period, you can use this script to 
    reset this Activation / Trial period whenever you want.
@@ -796,19 +802,20 @@ _________________________________
  - This option also can be used to restore status if in case the IDM reports a fake serial
    key and other similar errors.
 
-_________________________________
+―――――――――――――――――――――――――――――――――
 
    OS requirement:
-_________________________________
+
+―――――――――――――――――――――――――――――――――
 
  - Project is supported only for Windows 7/8/8.1/10/11 and their Server equivalent.
 
-_________________________________
+―――――――――――――――――――――――――――――――――
 
  - Advanced Info:
-_________________________________
 
-   - To add a custom name in IDM license info, edit line number 5 in the script file.
+―――――――――――――――――――――――――――――――――
+
    - For activation in unattended mode, run the script with /act parameter.
    - For reset in unattended mode, run the script with /res parameter.
    - To enable silent mode with the above two methods, run the script with /s parameter.
@@ -820,10 +827,11 @@ Possible accepted values,
 "IDMA-xxxxxxxx.cmd" /act /s
 "IDMA-xxxxxxxx.cmd" /res /s
 
-_________________________________
+―――――――――――――――――――――――――――――――――
 
  - Troubleshooting steps:
-_________________________________
+
+―――――――――――――――――――――――――――――――――
 
    - If any other activator was used to activate IDM previously then make sure to properly
      uninstall it with that same activator (if there is an option), this is especially important
@@ -845,10 +853,11 @@ _________________________________
 
      - If you are still facing any issues, please contact me (mentioned below on this page).
 
-__________________________________________________________________________________________________
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
    Credits:
-__________________________________________________________________________________________________
+
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 
    @Dukun Cabul		- Original researcher of this IDM trial reset and activation logic,
 			  made an Autoit tool for these methods, IDM-AIO_2020_Final
@@ -864,16 +873,20 @@ ________________________________________________________________________________
    @dbenham		- Set buffer height independently of window height
 			  stackoverflow.com/a/13351373
 
-   @ModByPiash (Me)	- Add and fix some missing features.
-_________________________________
-
-   IDM Activation Script
+   @ModByPiash		- Added and fixed some missing features.
    
-   Homepage:	https://github.com/lstprjct/IDM-Activation-Script
-   
-   Telegram:	https://t.me/ModByPiash
+   @NaeemBolchhi (Me)	- Improved username generation.
 
-__________________________________________________________________________________________________
+―――――――――――――――――――――――――――――――――
+
+   IDM Activator
+   
+   Homepage:	https://github.com/NaeemBolchhi/IDM-Activator
+   
+   Telegram:	https://t.me/NaeemBolchhi
+
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
 :txt:
 
 ::========================================================================================================================================
