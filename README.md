@@ -35,6 +35,8 @@
 
 ###   PowerShell
 
+---
+
 On Windows 10/11, right-click on the windows start menu and select PowerShell or Terminal.
 
 Copy-paste the below code and press enter
@@ -44,8 +46,6 @@ iwr -useb https://raw.githubusercontent.com/NaeemBolchhi/IDM-Activator/main/IAS.
 You will see the activation options, and follow onscreen instructions.
 
 That's all.
-
----
 
  - Project is supported only for Windows 7/8/8.1/10/11 and their Server equivalent.
 
