@@ -13,7 +13,6 @@
  - After the activation, if in some cases, the IDM starts to show an activation nag screen, 
    then just run the activation option again.
 
----
 
 ###   Reset IDM Activation / Trial:
 
