@@ -417,10 +417,9 @@ echo Applying registration details...
 echo:
 
 :: Add custom name in IDM license info, prefer to write it in English and/or numeric in below line after = sign,
-echo.
-set /p "name=> Username: "
+call :_color2 %_White% "        " %_Green% set /p "name=> Username: "
 If not defined name set "name=%username%"
-echo.
+echo:
 
 set "reg=HKCU\SOFTWARE\DownloadManager /v FName /t REG_SZ /d "%name%"" & call :_rcont
 set "reg=HKCU\SOFTWARE\DownloadManager /v LName /t REG_SZ /d """ & call :_rcont
