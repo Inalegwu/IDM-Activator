@@ -121,5 +121,3 @@ Possible accepted values,
 ##   IDM Activation Script
 
 ###   Telegram:   https://t.me/NaeemBolchhi
-
-  Forum:   https://www.nsaneforums.com/topic/371047--/?do=findComment^&comment=1578647
