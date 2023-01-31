@@ -12,8 +12,8 @@
 
  - After the activation, if in some cases, the IDM starts to show an activation nag screen, 
    then just run the activation option again.
-<br>
 
+<br>
 ###   Reset IDM Activation / Trial:
 
 ---
@@ -28,8 +28,7 @@
 
 ###   OS requirement: Windows 7, 8, 8.1, 10 & 11
 
----
-
+<br>
 ##   How to use it?
 
 ###   PowerShell
