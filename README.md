@@ -77,8 +77,9 @@ Possible accepted values,
 
    - Uninstall the IDM from the control panel.
 
-   - Make sure the latest original IDM setup is used for the installation,
-     you can download it from https://www.internetdownloadmanager.com/download.html
+   - Make sure the latest original IDM setup is used for the installation.
+     
+   - Download IDM: https://www.internetdownloadmanager.com/download.html
 
    - Now install the IDM and use the activate option in this script if failed then,
 
