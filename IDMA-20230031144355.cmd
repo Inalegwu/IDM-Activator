@@ -417,7 +417,7 @@ echo Applying registration details...
 echo:
 
 :: Add custom name in IDM license info, prefer to write it in English and/or numeric in below line after = sign,
-call :_color2 %_White% "        " %_Green% "Set a name for the license:"
+call :_color2 %_Green% "- Set a name for the license:"
 set /p "name=> "
 If not defined name set "name=%username%"
 echo:
