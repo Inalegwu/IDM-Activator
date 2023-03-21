@@ -53,7 +53,6 @@ That's all.
 
 ---
 
-   - To add a custom name in IDM license info, edit line number 5 in the script file.
    - For activation in unattended mode, run the script with /act parameter.
    - For reset in unattended mode, run the script with /res parameter.
    - To enable silent mode with the above two methods, run the script with /s parameter.
