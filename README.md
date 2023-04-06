@@ -42,6 +42,8 @@ You will see the activation options, and follow onscreen instructions.
 
 That's all.
 
+<br>
+
 ###   CMD as Admin (Windows 7/8/8.1)
 
 ---
