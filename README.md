@@ -34,7 +34,7 @@
 
 Right-click on the windows start menu and select PowerShell or Terminal.
 
-Copy-paste the below code and press enter
+Copy-paste the below code and press enter:
 
     iwr -useb https://naeembolchhi.github.io/IDM-Activator/IDMA.ps1 | iex
 
@@ -58,30 +58,13 @@ That's all.
 
 <br>
 
-###   Advanced Info
-
----
-
-   - For activation in unattended mode, run the script with /act parameter.
-   - For reset in unattended mode, run the script with /res parameter.
-   - To enable silent mode with the above two methods, run the script with /s parameter.
-
-Possible accepted values,
-
-"IDMA-xxxxxxxx.cmd" /act
-"IDMA-xxxxxxxx.cmd" /res
-"IDMA-xxxxxxxx.cmd" /act /s
-"IDMA-xxxxxxxx.cmd" /res /s
-
-<br>
-
 ###   Troubleshooting
 
 ---
 
-   - If any other activator was used to activate IDM previously then make sure to properly
-     uninstall it with that same activator (if there is an option), this is especially important
-     if any registry/firewall block method was used.
+   - If any other activator was used to activate IDM previously then make sure to properly uninstall it with that same activator (if there is an option), this is especially important if any registry/firewall block method was used.
+     
+   - If you're unable to properly remove the older IDM from everywhere (including registry), try using Revo Uninstaller Pro to scan and delete file and registry remnants.
 
    - Uninstall the IDM from the control panel.
 
@@ -91,14 +74,11 @@ Possible accepted values,
 
    - Now install the IDM and use the activate option in this script if failed then,
 
-     - Disable the windows firewall with the script option, this helps in case of leftover entries of
-       previously used activator (some file patch method also creates firewall entries).
+     - Disable the windows firewall with the script option, this helps in case of leftover entries of previously used activator (some file patch method also creates firewall entries).
 
-     - Some security programs may block this script, this is false-positive, as long as you 
-       downloaded the file from the original post (mentioned below on this page), temporary suspend
-       Antivirus real-time protection, or exclude the downloaded file/extracted folder from scanning.
+     - Some security programs may block this script, this is false-positive, as long as you downloaded the file from the original post (mentioned below on this page), temporary suspend Antivirus real-time protection, or exclude the downloaded file/extracted folder from scanning.
 
-     - If you are still facing any issues, please contact me (mentioned below on this page).
+     - If you are still facing any problems, please create an issue on this repo.
 
 <br>
 
