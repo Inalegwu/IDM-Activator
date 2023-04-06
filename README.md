@@ -64,7 +64,7 @@ That's all.
 
    - If any other activator was used to activate IDM previously then make sure to properly uninstall it with that same activator (if there is an option), this is especially important if any registry/firewall block method was used.
      
-   - If you're unable to properly remove the older IDM from everywhere (including registry), try using Revo Uninstaller Pro to scan and delete file and registry remnants.
+     - If you're unable to properly remove the older IDM from everywhere (including registry), try using Revo Uninstaller Pro to scan and delete file and registry remnants.
 
    - Uninstall the IDM from the control panel.
 
