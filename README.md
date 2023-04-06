@@ -10,8 +10,7 @@
 
  - IDM updates can be installed directly without having to activate again.
 
- - After the activation, if in some cases, the IDM starts to show an activation nag screen, 
-   then just run the activation option again.
+ - If you are still nagged by IDM for activation after running the script, just rerun the script another time.
 
 <br>
 
@@ -19,11 +18,9 @@
 
 ---
 
- - The Internet Download Manager provides 30 days trial period, you can use this script to 
-   reset this Activation / Trial period whenever you want.
+ - The Internet Download Manager provides 30 days trial period, you can use this script to reset this Activation / Trial period whenever you want.
  
- - This option also can be used to restore status if in case the IDM reports a fake serial
-   key and other similar errors.
+ - This option also can be used to restore status if in case the IDM reports a fake serial key and other similar errors.
 
 ####   OS requirement: Windows 7, 8, 8.1, 10 & 11
 
@@ -31,11 +28,11 @@
 
 ##   How to use it?
 
-###   PowerShell
+###   PowerShell (Windows 10/11)
 
 ---
 
-On Windows 10/11, right-click on the windows start menu and select PowerShell or Terminal.
+Right-click on the windows start menu and select PowerShell or Terminal.
 
 Copy-paste the below code and press enter
 
@@ -45,7 +42,17 @@ You will see the activation options, and follow onscreen instructions.
 
 That's all.
 
- - Project is supported only for Windows 7/8/8.1/10/11 and their Server equivalent.
+###   CMD as Admin (Windows 7/8/8.1)
+
+---
+
+Download the file with ".cmd" extension from this repo.
+
+Right-click on the file and select "Run as Administrator".
+
+You will see the activation options, and follow onscreen instructions.
+
+That's all.
 
 <br>
 
